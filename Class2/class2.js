@@ -29,6 +29,10 @@ alert("2"+2)
 // 22 (concatinat)
 alert(2+"2")
 //22 (concatinat)
+alert("2" + 2 + 2)
+// 222 (left to right)
+alert(2 + 2 + "2")
+//42
 
 
 // Chapter # 6
@@ -74,6 +78,13 @@ var num = (a++ + --b) - b++ - --a * a++;
 alert(num)
 
 
+var a=2;
+var b=3;
+
+console.log(a++ , --b , b++ , --a , a++); //2 2 2 2 2
+//js is ko kese lye raha hai we check like this
+
+
 // Chapter # 7
-// Math expressions: Eliminating ambiguity
+// Math expressions: Eliminating ambiguity (confusion)
 console.log(((2 + 2)* 2) -2 * 2)  //4

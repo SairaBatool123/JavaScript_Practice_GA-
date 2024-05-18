@@ -41,6 +41,8 @@ console.log(2 + num1 + num2 )
 // chapter # 9
 // Prompts (use for taking input from user)
 
+console.log(prompt());
+
 var userName = prompt();
 console.log(userName);
 
@@ -50,7 +52,7 @@ var num1 = prompt();
 var num1 = prompt();
 // when we want to return in a number so you have two option +prompt() OR: num1 = Number(num1);
 
-console.log(num1 + num2)
+console.log(num1 + num2) //1010 because this take string as an input
 
 // Chapter # 10
 // if Satatement
