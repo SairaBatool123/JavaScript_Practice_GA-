@@ -66,7 +66,7 @@ if (city == "karachi") {
 
 var age = +prompt("Enter Your Age: ");
 
-if(age >= 20);{
+if(age >= 20){
     console.log("You Are Eligible To Attend a Class");
 }
 else if(age > 15 ){

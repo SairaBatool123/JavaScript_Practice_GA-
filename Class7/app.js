@@ -1,8 +1,20 @@
+// Chap # 11 Comparison operator (use with if statement)
+
+
 if ("a" === "a") {
     console.log("Saira") //Saira
 }
 
-// falsy value 
+"a" !== "b"
+//yeh na ho baki sare bachye ho yeh example ho sakti hai
+// operators
+// > , < , >= , <= 
+
+if(10>5){
+    console.log("Saira") //Saira
+}
+
+// falsy value 6 only for reduce a code
 false
 ""
 null
@@ -12,6 +24,8 @@ NaN
 
 var userName = prompt("Enter Your Name:");
 //string "" 
+//falsy value k ilawah baki sari value true hi hoti hai
+// OR in if (userName === " ") OR if (userName !== " ")
 if (userName) {
     console.log(userName);
 } else {
@@ -19,7 +33,7 @@ if (userName) {
 }
 
 var softwareEngineer = prompt("Please Enter Your level");
-
+//if by-default independent 
 if (softwareEngineer === "Senior Software Engineer") {
     console.log("90000");
 } else if (softwareEngineer === "Junior Software Engineer") {
@@ -28,27 +42,22 @@ if (softwareEngineer === "Senior Software Engineer") {
     console.log("50000");
 }
 
-
-
-
-//10 testing set of condition
+//13 testing set of condition (OR / AND) using for comparison multiple comparision
 
 var skill = prompt("Enter your skills");
-var exp = prompt("Enter Your exp");
+var exp = +prompt("Enter Your exp");
 var city = prompt("Enter your city");
-var salary = prompt("Enter your salary");
 
-// if(skill === "javascript" && exp > 2){
-//     console.log("Hired")
-// }
+
+if(skill === "javascript" && exp > 2){
+    console.log("Hired")
+}
+// OR 
 if ((skill === "javascript" || exp > 2) && city == "Karachi") {
     console.log("Hired")
 }
 
-
-
-
-//11 if statements nested
+//14 if statements nested
 var skill = prompt("Enter your skills");
 var exp = prompt("Enter Your exp");
 var city = prompt("Enter your city");
@@ -66,30 +75,31 @@ if ((skill === "javascript" || exp > 2) && city == "Karachi") {
     console.log("Hired")
 }
 
-
-//12 Array (object)
-var arr = []; //empty array
+//15 Array (object) python (list)
+var arr = []; //empty array intialize7
 
 var arr = ["saira", "sajida", "saira", "sajida", "saira", "sajida", "saira", "sajida",];
 console.log(arr);
 //get indexing start from 0
 console.log(arr[3]); //sajida
-// count not indexing it is a number of count 
+//not indexing it is a (number of count) 
 console.log(arr.length);
-// adding another in array 
-arr[4] = "shafqat"
+// adding another in array  with the help of indexing
+arr[8] = "shafqat" //undefined
 
-console.log(arr[5]);
+var arr;
+console.log(arr[5]); //get[] 1 error 5 index 2 error
 
 var arr = ["saira", "sajida", "saira", "shahzad", "ali"];
-
-// var update ker diya
+// var update ker diya or os ka address nhi bayata
 arr = "saira"
 // string mai bhi index hoti hai 
 console.log(arr[3]); //r
 
-
+// ARRAY METHOD  "keyword" pop..
 var arr = ["saira", "sajida", "saira", "shahzad", "ali"];
+arr.pop("Ali" , "Haider") //comma seprated hotyen hain
+arr.pop(); //2 time call kerwana
 arr.pop(); //remove always in last
 arr.push(); //add always in last
 

@@ -39,7 +39,7 @@ alert(name);
 var num1 = 2;
 var num2 = 6;
 var sum = num1 + num2;
-alert(sum);
+alert(sum); //8
 
 
 var originalNumber = 23;

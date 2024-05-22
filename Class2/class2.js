@@ -46,7 +46,7 @@ alert(num1)
 // or
 num1++;
 
-alert(num1)
+alert(num1) //7
 
 
 number = 10
@@ -56,7 +56,7 @@ alert(number);
 number++;
 // post increment
 alert(number);
-//NaN
+//NaN it is a string
 
 var num2 = 10
 alert(num2);
