@@ -26,6 +26,7 @@ var school = "SMIT"; //var name mai spacing bhi count hoti hai
 console.log(school.slice(1,1)) // kuch bhi nhi aye ga aik index ziyadah deni hogi
 console.log(school.slice(1,2)) // M
 
+// CHAPTER # 18 FOR LOOP (repeation/iteration)
 
 
 
