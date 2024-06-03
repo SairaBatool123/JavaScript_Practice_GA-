@@ -28,6 +28,10 @@ console.log(school.slice(1,2)) // M
 
 // CHAPTER # 18 FOR LOOP (repeation/iteration)
 
-
+for(var i=0; i < 5; i++){   
+//condition se cahlye ga  //i++ updation
+    console.log(i) //4 tk
+}
+console.log(i)
 
 
