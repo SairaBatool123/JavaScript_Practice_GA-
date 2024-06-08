@@ -26,14 +26,3 @@ for (var i = 1; i <= 10; i++) {
 for (var i = 10; i >= 1; i--) {
     console.log(i)
 }
-
-// extra 
-// .back{
-//     background-color: #F2F5EA !important;
-// }
-// *{
-//     font-family: "Plus Jakarta Sans", sans-serif !important;
-// }
-// span{
-//     background-color: #2C363F !important;
-// }
