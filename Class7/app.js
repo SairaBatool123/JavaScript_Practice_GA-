@@ -1,11 +1,10 @@
 // Chap # 11 Comparison operator (use with if statement)
 
-
-if ("a" === "a") {
+if ("a" === "a") { //true
     console.log("Saira") //Saira
 }
 
-"a" !== "b"
+"a" !== "a" //false
 //yeh na ho baki sare bachye ho yeh example ho sakti hai
 // operators
 // > , < , >= , <= 
@@ -25,7 +24,7 @@ NaN
 var userName = prompt("Enter Your Name:");
 //string "" 
 //falsy value k ilawah baki sari value true hi hoti hai
-// OR in if (userName === " ") OR if (userName !== " ")
+// OR in if (userName === " ") OR if (userName !== " " //Reverse)
 if (userName) {
     console.log(userName);
 } else {
@@ -42,7 +41,7 @@ if (softwareEngineer === "Senior Software Engineer") {
     console.log("50000");
 }
 
-//13 testing set of condition (OR / AND) using for comparison multiple comparision
+//Chapter # 13 testing set of condition (OR / AND) using for comparison multiple comparision
 
 var skill = prompt("Enter your skills");
 var exp = +prompt("Enter Your exp");
