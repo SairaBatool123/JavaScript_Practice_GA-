@@ -39,7 +39,7 @@ alert(2 + 2 + "2")
 // Math expressions: Unfamiliar operators
 
 var num1 = 6;
-alert(num1)
+alert(num1) //6
 
 // num1 = num1 + 1
 // num1 = num1 + 5
@@ -50,8 +50,8 @@ alert(num1) //7
 
 
 number = 10
-alert(number);
-number = "number + 5";
+alert(number); //10
+number = "number + 5"; //number + 5
 alert(number);
 number++;
 // post increment
@@ -59,17 +59,16 @@ alert(number);
 //NaN it is a string
 
 var num2 = 10
-alert(num2);
+alert(num2); //10
 num2 = "num2 + 5";
-alert(num2);
+alert(num2); //num2 + 5
 num2--;
 // post decremenant
 alert(num2);
-//10
+//NaN it is a string
 
-
-var a = 2;
-var b = 3;
+var a = 2; //3 //2
+var b = 3; //2 //3
 
 var num = (a++ + --b) - b++ - --a * a++;
 // (2 + 2)  - 2  -2  *  2  = -2
@@ -78,8 +77,8 @@ var num = (a++ + --b) - b++ - --a * a++;
 alert(num)
 
 
-var a=2;
-var b=3;
+var a=2; //3 //2 //3
+var b=3; //2 //3
 
 console.log(a++ , --b , b++ , --a , a++); //2 2 2 2 2
 //js is ko kese lye raha hai we check like this

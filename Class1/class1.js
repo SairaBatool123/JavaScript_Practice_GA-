@@ -11,7 +11,7 @@ window.alert("Hi! Dear");
 var num1= 24
 alert(num1);
 
-// alert(123413d889) //error because aik bhi alphabet a jaye ga in number to string ho jaye ga 
+// var abc = 123413d889 //error because aik bhi alphabet a jaye ga in number to string ho jaye ga 
 
 
 // Chapter # 2
@@ -22,12 +22,15 @@ alert(num1);
 var abc = 35267;
 abc = 10; 
 // OR abc = "Hi" 
-alert(10);
+alert(abc);
 
 
 var abc;
 alert(abc);
 // undefined
+
+var nationality;
+nationality = "Pakistan";
 
 // Chapter # 3
 // Variables for Numbers

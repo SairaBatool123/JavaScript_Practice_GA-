@@ -1,22 +1,19 @@
 // chapter # 8
 // Concatenating test strings (+ only)
 
-// var fristName = "Saira"
-// var lastName = "Batool"
+var fristName = "Saira"
+var lastName = "Batool"
 
-// console.log(fristName + " " + lastName)
-
-
-// var num1 = "2";
-// var num2 = "2";
-
-// console.log(num1 + num2)
-// // 22
+console.log(fristName + " " + lastName)
 
 
-// var num1 = 2;
-// var num2 = "2";
+var num1 = "2";
+var num2 = "2";
+console.log(num1 + num2)
+// 22
 
+var num1 = 2;
+var num2 = "2";
 console.log(num1 + num2)
 // 22
 
@@ -24,7 +21,7 @@ console.log(num1 + num2)
 var num1 = 2;
 var num2 = "2";
 
-console.log(num1 + num2 + 2)
+console.log(num1 + num2 + 2) //left to right
 // 222
 
 
