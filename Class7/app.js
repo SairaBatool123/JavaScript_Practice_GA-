@@ -47,7 +47,7 @@ var skill = prompt("Enter your skills");
 var exp = +prompt("Enter Your exp");
 var city = prompt("Enter your city");
 
-
+//first wala hi false ho to agye wale check karye ga hi nhi 
 if(skill === "javascript" && exp > 2){
     console.log("Hired")
 }
