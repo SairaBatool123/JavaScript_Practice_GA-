@@ -10,7 +10,7 @@ console.log(tableOf + "x" + i + "=" + tableOf*i) //tableOf*incre
 }
 
 var Reversename= "Saira";
-for(i=0; i<5; i--){
+for(i=4; i>=0; i--){
     console.log(Reversename[i])
 }
 
@@ -19,6 +19,13 @@ for(i=0; i<5; i++){
     console.log(Reversename[i])
 }
 
+// CLASS # 10
+str += "saylani"
+
+var str = "SMIT";
+for(var i =0 ; i < str.length; i++){
+    console.log("true")
+}
 
 // var arr = [11,12,13,14,15];
 // var min = arr[0];
