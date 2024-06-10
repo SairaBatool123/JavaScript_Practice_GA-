@@ -1,19 +1,18 @@
-// for(var i = 0 ; i<5; i++){
-//     console.log(i)
-// }
+for(var i = 0 ; i<5; i++){
+    console.log(i)
+}
 
+var tableOf = 3;
+// var incre = 1;
 
-// var tableOf = 3;
-// // var incre = 1;
+for(var i =1 ; i <= 10; i++ ){
+console.log(tableOf + "x" + i + "=" + tableOf*i) //tableOf*incre
+}
 
-// for(var i =1 ; i <= 10; i++ ){
-// console.log(tableOf + "x" + i + "=" + tableOf*i) //tableOf*incre
-// }
-
-// var Reversename= "Saira";
-// for(i=0; i<5; i--){
-//     console.log(Reversename[i])
-// }
+var Reversename= "Saira";
+for(i=0; i<5; i--){
+    console.log(Reversename[i])
+}
 
 var Reversename= "Saira";
 for(i=0; i<5; i++){

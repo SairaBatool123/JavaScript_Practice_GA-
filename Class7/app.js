@@ -56,7 +56,7 @@ if ((skill === "javascript" || exp > 2) && city == "Karachi") {
     console.log("Hired")
 }
 
-//14 if statements nested
+//Chapter # 14 if statements nested
 var skill = prompt("Enter your skills");
 var exp = prompt("Enter Your exp");
 var city = prompt("Enter your city");
@@ -74,17 +74,18 @@ if ((skill === "javascript" || exp > 2) && city == "Karachi") {
     console.log("Hired")
 }
 
-//15 Array (object) python (list)
+//Chapter # 15 (Array= datatype object) python (list)
 var arr = []; //empty array intialize7
 
-var arr = ["saira", "sajida", "saira", "sajida", "saira", "sajida", "saira", "sajida",];
+var arr = ["saira", "sajida", "saira", "sajida", "saira", "sajida", "saira", "sajida",]
+arr[8] = "kamran" //add this on 8 index
 console.log(arr);
 //get indexing start from 0
 console.log(arr[3]); //sajida
 //not indexing it is a (number of count) 
 console.log(arr.length);
 // adding another in array  with the help of indexing
-arr[8] = "shafqat" //undefined
+arr[9] = "shafqat" //undefined
 
 var arr;
 console.log(arr[5]); //get[] 1 error 5 index 2 error
@@ -100,7 +101,7 @@ var arr = ["saira", "sajida", "saira", "shahzad", "ali"];
 arr.pop("Ali" , "Haider") //comma seprated hotyen hain
 arr.pop(); //2 time call kerwana
 arr.pop(); //remove always in last
-arr.push(); //add always in last
+arr.push("sana"); //add always in last
 
 arr.unshift("saira"); //add always in first
 arr.shift("saira"); //remove always in first
