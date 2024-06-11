@@ -75,7 +75,7 @@ if ((skill === "javascript" || exp > 2) && city == "Karachi") {
 }
 
 //Chapter # 15 (Array= datatype object) python (list)
-var arr = []; //empty array intialize7
+var arr = []; //empty array intialize
 
 var arr = ["saira", "sajida", "saira", "sajida", "saira", "sajida", "saira", "sajida",]
 arr[8] = "kamran" //add this on 8 index
@@ -93,18 +93,20 @@ console.log(arr[5]); //get[] 1 error 5 index 2 error
 var arr = ["saira", "sajida", "saira", "shahzad", "ali"];
 // var update ker diya or os ka address nhi bayata
 arr = "saira"
+console.log(arr); //saira
+arr = "saira"
 // string mai bhi index hoti hai 
 console.log(arr[3]); //r
 
 // ARRAY METHOD  "keyword" pop..
 var arr = ["saira", "sajida", "saira", "shahzad", "ali"];
-arr.pop("Ali" , "Haider") //comma seprated hotyen hain
+
 arr.pop(); //2 time call kerwana
 arr.pop(); //remove always in last
 arr.push("sana"); //add always in last
 
 arr.unshift("saira"); //add always in first
-arr.shift("saira"); //remove always in first
+arr.shift(); //remove always in first
 
 arr.push("tajamul"); //index nhi batana perta
 arr.push("tajamul", "saira"); //add one or more

@@ -22,10 +22,10 @@ console.log("--score: " ,--score); //0
 console.log("score: ", score + 1); //score: 1
 
 var nameIs = prompt("Enter Your Name: ") //SANA,sana,Sana (it converted into sana)  
-console.log(nameIs.toLowerCase()) //sana this is ajust for written form in console
+console.log(nameIs.toLowerCase()) //sana this is a just for written form in console
 //SANA(converted in lowercase) === sana 
 if (nameIs.toLowerCase() === "sana") { //toUpperCase
-    alert("YOU ARE RIGHT")
+    alert("YOU ARE RIGHT");
 }
 
 

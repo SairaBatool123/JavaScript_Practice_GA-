@@ -67,7 +67,7 @@ num2--;
 alert(num2);
 //NaN it is a string
 
-var a = 2; //3 //2
+var a = 2; //3 //2 //3
 var b = 3; //2 //3
 
 var num = (a++ + --b) - b++ - --a * a++;

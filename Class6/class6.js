@@ -59,7 +59,7 @@ var courseName = prompt("Enter Your Course")
 
 // left to right (first hi true ho gai to wo agye check nhi karye ga)
 
-// true false dekhnye k liye js kia leta hai with comma
+// true false dekhnye k liye js kia leta hai with comma in consol
 // console.log(courseName === "Web Dev", courseName === "Graphic" , courseName === "Mobile");
 
 // || OR Operator

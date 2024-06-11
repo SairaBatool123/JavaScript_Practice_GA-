@@ -1,6 +1,6 @@
 // ARRAY METHOD (SPLICE)  
 pets.splice(2, 2, "pig", "duck") //target index or agye kitne ko remove kerna hai 
-//array method that do every work like,add remve/delete and replace in start end and center
+//array method that do every work like,add remove/delete and replace in start end and center
 
 // array  (index , wo khud os k agye wala remove , baki yeh add ker do)
 

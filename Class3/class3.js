@@ -60,7 +60,8 @@ alert(tooManyCats) //41
 // inculde in it comparision operator
 // === Value and Type
 // == Value
-// !== true = false false = true
+// !== true = false false = true + (Value and Type)
+// != true = false false = true + (Value)
 // e.g; "123" !== "123" //false 
 //"123" !== "1234" //true
 if (true) {
@@ -107,7 +108,7 @@ var x=prompt("enter where you live?")
 var correctAnswer = "Vatican";
 if (x === correctAnswer) {
     score++
-    console.log(score);
+    console.log(score); //1
     userIQ = "genius";
     alert("Correct!");
 }
