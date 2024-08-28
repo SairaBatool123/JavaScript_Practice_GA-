@@ -26,4 +26,6 @@ console.log(document.getElementById("main"));
 console.log(window) //global
 
 
+
 // while loop
+// do while loop
