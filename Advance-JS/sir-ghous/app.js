@@ -68,8 +68,11 @@ console.log("Batool");
 
 // differnce bw let,var const img.jpg
 
-//Methods:
-
+//Higher Order Array Methods:
+const arr1 = [2,3,5,6,2]
+const newArr = arr1.map((element,index,arr1)=>{
+   return element*2;
+})
 //Clouser:
 function abc(){
     //window
