@@ -30,7 +30,7 @@ obj.name = "saira"
 console.log(obj);
 
 const b = {}
-a = {name : "Ahmed"}
+a = { name: "Ahmed" }
 console.log(a); //error obj k  ander obj not allow (replace)
 
 // console.log(p); //error not defined aisi cheez jo define hi na ho 
@@ -45,21 +45,21 @@ c = "Ghous"; //undefined
 
 // synchronous(squential) AND asynchronous(parallel)
 for (var i = 0; i < 5; i++) {
-   setTimeout(function(){
-console.log(i);
-},3000)  
+    setTimeout(function () {
+        console.log(i);
+    }, 3000)
 } //5=>5
 
 for (let i = 0; i < 5; i++) {
-    setTimeout(function(){
- console.log(i);
- },3000)  
- } //0 to 4
+    setTimeout(function () {
+        console.log(i);
+    }, 3000)
+} //0 to 4
 
-setTimeout(function(){
+// asynchronous 
+setTimeout(function () {
     console.log("Saira");
-    
-},1000)
+}, 1000)
 console.log("Batool");
 
 // Single-Thread => One Work AT a Time
@@ -69,46 +69,46 @@ console.log("Batool");
 // differnce bw let,var const img.jpg
 
 //Higher Order Array Methods:
-const arr1 = [2,3,5,6,2]
-const newArr = arr1.map((element,index,arr1)=>{
-   return element*2;
+const arr1 = [2, 3, 5, 6, 2]
+const newArr = arr1.map((element, index, arr1) => {
+    return element * 2;
 })
 //Clouser:
-function abc(){
+function abc() {
     //window
     //abc scope
     var a = 4;
 
-    function xyz(){
-//window
-    //abc scope
-    //xyz scope
-    function foo(){
+    function xyz() {
         //window
-    //abc scope
-    //xyz scope
-    //foo scope
-    }
+        //abc scope
+        //xyz scope
+        function foo() {
+            //window
+            //abc scope
+            //xyz scope
+            //foo scope
+        }
     }
     xyz();
 }
 abc();
 
 //Destructuring 
-let student ={
-    name:"sana",
-    email:"saira455@gmail.com",
-    classDetail : {
-    time: "9-11"
+let student = {
+    name: "sana",
+    email: "saira455@gmail.com",
+    classDetail: {
+        time: "9-11"
     }
 }
 // let time = "6789" 
 console.log(student.name, student.email);
 // OR 
-let {name , email , classDetail} = student;
-console.log(name,email,classDetail);
+let { name, email, classDetail } = student;
+console.log(name, email, classDetail);
 // OR 
-let {time} = classDetail; //time: classTime(rename)
-console.log(name,email,time); //classTime
+let { time } = classDetail; //time: classTime(rename)
+console.log(name, email, time); //classTime
 
 // obj-destruc img  

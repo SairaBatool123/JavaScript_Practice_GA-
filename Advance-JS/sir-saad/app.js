@@ -1,5 +1,5 @@
 // ----------------- CLASS # 1 ---------------
-
+// 1. VARIABLE SCOPING
 var firstName = "Saira"
 {
 var firstName = "Batool"
@@ -21,32 +21,71 @@ fname = "sara"
 console.log(bc);
 var bc = "sana"
 
-// TEMPLATE LITERALS
+// 2. CLOSURE
+function init() {
+    var name = "Mozilla"; // name is a local variable created by init
+    function displayName() {
+        // displayName() is the inner function, that forms a closure
+        console.log(name); // use variable declared in the parent function
+    }
+    displayName();
+}
+init();
+
+// 3. TEMPLATE LITERALS
 // let name = saira
 let merge = `my name is ${name}
 and im very happy today`
 
-// DEFUALT PARAMETERS
+// 4. DESTRUCTRING
+let myArray = [1,3,4,5,6] 
+let [d, ,  ,...rest]= myArray
+console.log(d ,...rest);
+
+// 5. DEFUALT PARAMETERS
 function foo(a=4,b=4){
     return a+b
 }
 console.log(foo(10,10)); //foo()
 
-// REST PARAMETERS (BACHA HOWA)
-function foo(a,b,...rest){
+// 6. REST PARAMETERS (BACHA HOWA)
+function fooIs(a,b,...rest){
 //   console.log(a,b,...rest); //arguments
 // console.log(a,b,rest); //array
-let num = 0 ;
-for (let key in rest) {
-     num  += rest[key];
-    //  console.log(rest[key]);
-     
-}
-console.log(a+b+num);
-//   console.log(a,b,...rest);
+console.log(a);
+console.log(b);
+console.log(rest);
 }
 
-foo(10,10,4,5,6,7,8,9)
+fooIs(10,10,4,5,6,7,8,9)
+
+// 7. SPREAD PARAMETERS 
+const originalArr1 = [1,2,3]
+console.log(...originalArr1);
+
+const originalArr = [1,2,3]
+const copiedArr = [...originalArr]
+console.log(copiedArr);
+
+const dummyArr1 = [1,3,4]
+const dummyArr2 = [6,8,9]
+const mergeArr = [...dummyArr1, ...dummyArr2]
+console.log(mergeArr);
+
+const number = [1,2,3,4,5]
+sumIs(...number)
+function sumIs(a,b,c,d,e){
+    console.log(a+b+c+d+e);
+    
+}
+// 8. ARROW FUNCTION 
+// const sayHi = (o)=>{
+//     console.log('Hi EveryOne');
+// }
+// sayHi(o) 
+const sayHi = (o)=>console.log('Hi EveryOne');
+sayHi(o) 
+
 
 // ----------------- CLASS # 2 ---------------
 const arr = ['saira', 'sara']
