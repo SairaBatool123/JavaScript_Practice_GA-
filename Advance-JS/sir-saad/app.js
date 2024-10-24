@@ -33,14 +33,27 @@ function init() {
 init();
 
 // 3. TEMPLATE LITERALS
-// let name = saira
-let merge = `my name is ${name}
+let names = "saira"
+let merge = `my name is ${names}
 and im very happy today`
 
 // 4. DESTRUCTRING
 let myArray = [1,3,4,5,6] 
 let [d, ,  ,...rest]= myArray
 console.log(d ,...rest);
+
+let student = {
+    name: "sana",
+    email: "saira455@gmail.com",
+    classDetail: {
+        time: "9-11"
+    }
+}
+let { name, email, classDetail } = student;
+console.log(name, email, classDetail);
+// OR 
+let { time } = classDetail; //time: classTime(rename)
+console.log(name, email, time); //classTime
 
 // 5. DEFUALT PARAMETERS
 function foo(a=4,b=4){
@@ -83,8 +96,8 @@ function sumIs(a,b,c,d,e){
 //     console.log('Hi EveryOne');
 // }
 // sayHi(o) 
-const sayHi = (o)=>console.log('Hi EveryOne');
-sayHi(o) 
+// const sayHi = (o)=>console.log('Hi EveryOne');
+// sayHi(o) 
 
 
 // ----------------- CLASS # 2 ---------------
@@ -203,3 +216,79 @@ function obj(a,b,...rest){
     
 }
 obj(1,2,3,4,5,2)
+
+
+// 9. ENHANCED OBJECT LITERALS
+let uName = "sana";
+let age = 2;
+let gender = "female";
+
+let objectEqual =  {uName, age}
+console.log(objectEqual);
+
+// 10. ITERATOR
+
+// 13.  MODULES
+// 14. ARRAY METHODS
+// HIGHER ORDER FUNCTION 
+function callBackFunction(){
+    console.log("I am a callBackFunction");
+}
+function higherOrderFunction(){
+    console.log("I am a higherOrderFunction");
+   
+}
+
+
+// CALL BACK FUNCTION 
+function aFunction(){
+    console.log("hi");
+    
+}
+aFunction(()=>{
+    console.log("I am a callBackFunction");
+    
+})
+
+// PROMISES
+
+
+// EXPONENTIATION OPERATOR
+console.log(2**4); //16
+console.log(2**3**2); //512
+console.log(16**-2); //0.00390625
+
+// CLASSES
+class Animal{
+    constructor(name,age,food){
+        this.name = name
+        this.age= age
+        this.food= food
+    }
+    eat(){
+        console.log(`${this.name} eats ${this.food}`);
+    }
+    isCute(){
+        if(this.age<2){
+            console.log(`${this.name} is cute`)
+        }
+    }
+}
+let cat = new Animal("cat", 2, "fish")
+cat.eat()
+cat.isCute()
+console.log(cat);
+
+// TERNARY OPERATOR 
+let uAge = 15;
+let myAge = uAge >= 15 ? "ok Good" : "not Bad"
+console.log(myAge);
+
+// OPTIONAL CHANNING
+let objAre = {
+    name : "sara",
+    age: 5
+}
+console.log(objAre.name.class ); //undefined 
+console.log(name?.age?.class);
+

@@ -93,22 +93,3 @@ function abc() {
     xyz();
 }
 abc();
-
-//Destructuring 
-let student = {
-    name: "sana",
-    email: "saira455@gmail.com",
-    classDetail: {
-        time: "9-11"
-    }
-}
-// let time = "6789" 
-console.log(student.name, student.email);
-// OR 
-let { name, email, classDetail } = student;
-console.log(name, email, classDetail);
-// OR 
-let { time } = classDetail; //time: classTime(rename)
-console.log(name, email, time); //classTime
-
-// obj-destruc img  
