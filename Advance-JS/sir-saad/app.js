@@ -127,7 +127,7 @@ function sumIs(a, b, c, d, e) {
 const number = [1, 2, 3, 4, 5]
 sumIs(...number)
 
-function obj(a, b, ...rest) {
+function obj6(a, b, ...rest) {
     // var a = 0 ;
     for (let key in rest) {
         var a = rest[key]
@@ -137,7 +137,7 @@ function obj(a, b, ...rest) {
     console.log(a + b);
 
 }
-obj(1, 2, 3, 4, 5, 2)
+obj6(1, 2, 3, 4, 5, 2)
 
 // 8. ARROW FUNCTION 
 let abf = (a, b) => { // if one parameter no need to add () directly write a=>{}
@@ -244,16 +244,16 @@ for(let key in obj){
 const namme = "Jesse";
 const agee = 40;
 
-export {name, age};
+// export {namme, agee};
 
 // 14. HIGHER ORDER FUNCTION 
-function callBackFunction() {
-    console.log("I am a callBackFunction");
-}
-function higherOrderFunction() {
-    console.log("I am a higherOrderFunction");
+// function callBackFunction() {
+//     console.log("I am a callBackFunction");
+// }
+// function higherOrderFunction() {
+//     console.log("I am a higherOrderFunction");
 
-}
+// }
 
 // 15. CALL BACK FUNCTION 
 function aFunction() {
@@ -313,3 +313,20 @@ console.log(objAre.name.class); //undefined
 console.log(name?.age?.class);
 
 // 21. ARRAY METHODS
+
+// MAP 
+//map function change the state of the reference array
+const even = [2,4,6,8,10]
+const odd = even.map(function(val){
+    return val - 1 // on same index
+});
+console.log(odd);
+// OR: const odd = even.map(val => val-1);
+
+// FILTER 
+const num = [1,2,3,4,6,8,9,7];
+const final = num.filter(val=> val%2==0 )
+console.log(final);
+even.forEach(val=>console.log(val));
+
+
