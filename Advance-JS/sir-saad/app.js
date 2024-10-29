@@ -329,4 +329,3 @@ const final = num.filter(val=> val%2==0 )
 console.log(final);
 even.forEach(val=>console.log(val));
 
-
